@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # Title: Hugging Face API Configuration
-API_TOKEN = "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"  # Replace with your actual Hugging Face token
+API_TOKEN = "token_name"  # Replace with your actual Hugging Face token
 API_URL = "https://api-inference.huggingface.co/models/meta-llama/Llama-3.1-8B-Instruct"
 headers = {"Authorization": f"Bearer {API_TOKEN}"}
 
